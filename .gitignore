@@ -1,0 +1,11 @@
+data/
+features/
+models/
+splits/
+.ipynb_checkpoints/
+__pycache__/
+*.zip
+*.npz
+*.joblib
+kaggle.json
+.env
