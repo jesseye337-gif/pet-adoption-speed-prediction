@@ -1,0 +1,32 @@
+{
+  "random_seed": 42,
+  "total_records": 14993,
+  "final_records": 14640,
+  "train_records": 10248,
+  "validation_records": 2196,
+  "test_records": 2196,
+  "split_method": "Stratified random split by AdoptionSpeed",
+  "split_ratio": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "image_selection": "First image per pet",
+  "primary_selection_metric": "Validation Macro-F1",
+  "test_used_for_parameter_selection": false,
+  "python_version": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "package_versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "sentence-transformers": "5.7.0",
+    "transformers": "5.22.0",
+    "Pillow": "11.3.0",
+    "matplotlib": "3.10.0",
+    "joblib": "1.6.0"
+  }
+}
